@@ -21,6 +21,6 @@ A lightweight email spam filter built from scratch in Python using the **Naive B
 - Outputs classification based on log score comparison.
 
 ## 🛠️ What's Coming Next
-- This project is a basic version to help understand how Naive Bayes works. In future updates, I plan to:
+This project is a basic version to help understand how Naive Bayes works. In future updates, I plan to:
 - Make the word counting for spam and ham messages better and more accurate.
 - Use scikit-learn to improve the way features are handled and make the classifier more powerful and flexible.
