@@ -1,6 +1,6 @@
 # 📨 Simple Naive Bayes Email Classifier
 
-A lightweight email spam filter built from scratch in Python using the **Naive Bayes algorithm** — no ML libraries, just word counts, probabilities, and math.
+A lightweight email spam filter built from scratch in Python using the **Naive Bayes algorithm**. No ML libraries, just word counts, probabilities, and math.
 
 ---
 
