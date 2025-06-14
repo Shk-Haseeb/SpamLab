@@ -1,7 +1,5 @@
 import streamlit as st
 import joblib
-import sys
-sys.path.append('../src')
 
 from text_preprocessing import preprocess_text
 
