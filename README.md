@@ -2,7 +2,7 @@
 
 This is a **spam detection app** I built from scratch using real-world email datasets. It classifies emails as **spam or ham** using natural language processing and machine learning. The project helped me explore **text preprocessing, model evaluation, and deploying ML apps with Streamlit**.
 
-🔗 **Live App**: [Streamlit Demo](https://your-app-link.streamlit.app)
+🔗 **Live App**: [Streamlit Demo](https://spamlab-demo.streamlit.app/)
 ![App Demo](/images/app_demo.png)
 
 ---
