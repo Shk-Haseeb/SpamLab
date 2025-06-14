@@ -1,10 +1,14 @@
 import streamlit as st
 import joblib
+import os
 
 from text_preprocessing import preprocess_text
 
-model = joblib.load('spam_classifier_voting_model.pkl')
-vectorizer = joblib.load('tfidf_vectorizer.pkl')
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "spam_classifier_voting_model.pkl")
+VECTORIZER_PATH = os.path.join(os.path.dirname(__file__), "tfidf_vectorizer.pkl")   
+
+model = joblib.load(MODEL_PATH)
+vectorizer = joblib.load(VECTORIZER_PATH)
 
 st.set_page_config(page_title="Spam Detector", page_icon="📧")
 st.title("📧 Spam vs Ham Email Classifier")
