@@ -3,8 +3,8 @@ import joblib
 
 from text_preprocessing import preprocess_text
 
-model = joblib.load('../models/spam_classifier_voting_model.pkl')
-vectorizer = joblib.load('../models/tfidf_vectorizer.pkl')
+model = joblib.load('spam_classifier_voting_model.pkl')
+vectorizer = joblib.load('tfidf_vectorizer.pkl')
 
 st.set_page_config(page_title="Spam Detector", page_icon="📧")
 st.title("📧 Spam vs Ham Email Classifier")
