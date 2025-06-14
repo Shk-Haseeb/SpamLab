@@ -17,8 +17,9 @@ stop_words = set(stopwords.words('english'))
 
 def preprocess_text(text):
     text = re.sub(r"[^a-zA-Z]", " ", text)
+    text = text.lower()
 
-    words = word_tokenize(text.lower())
+    words = word_tokenize(text)
 
     filtered_words = [w for w in words if w not in stop_words and len(w) > 1]
 
