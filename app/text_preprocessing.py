@@ -3,21 +3,16 @@ import re
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
-try:
-    nltk.data.find("tokenizers/punkt")
-except LookupError:
-    nltk.download("punkt")
+for resource in ["punkt", "punkt_tab", "stopwords"]:
+    try:
+        nltk.data.find(f"tokenizers/{resource}" if "punkt" in resource else f"corpora/{resource}")
+    except LookupError:
+        nltk.download(resource)
 
-try:
-    nltk.data.find("corpora/stopwords")
-except LookupError:
-    nltk.download("stopwords")
-
-stop_words = set(stopwords.words('english'))
+stop_words = set(stopwords.words("english"))
 
 def preprocess_text(text):
-    text = re.sub(r"[^a-zA-Z]", " ", text)
-    text = text.lower()
+    text = re.sub(r"[^a-zA-Z]", " ", text).lower()
 
     words = word_tokenize(text)
 
