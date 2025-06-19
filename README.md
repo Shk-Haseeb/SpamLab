@@ -1,13 +1,13 @@
-# 📧 SpamLab: Spam/Ham Email Classifier
+# SpamLab: Spam/Ham Email Classifier
 
-This is a **spam detection app** I built from scratch using real-world email datasets. It classifies emails as **spam or ham** using natural language processing (NLP) and machine learning. The project helped me explore **text preprocessing, model evaluation, and deploying ML apps with Streamlit**.
+This is a **spam detection app** I built from scratch using real-world email datasets. It classifies emails as **spam or ham** using natural language processing (NLP) and machine learning. The project helped me explore **text preprocessing, model evaluation, and deploying ML app with Streamlit**.
 
 🔗 **Live App**: [Streamlit Demo](https://spamlab-demo.streamlit.app/)
 ![App Demo](/images/app_demo.png)
 
 ---
 
-## 🚀 What I Learned
+## What I Learned
 
 - Built multiple classifiers: `Naive Bayes`, `Logistic Regression`, and an `Ensemble Voting Classifier`
 - Used `TF-IDF Vectorization` to convert raw email text into numerical features
@@ -19,7 +19,7 @@ This is a **spam detection app** I built from scratch using real-world email dat
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠Tech Stack
 
 - `Python 3.10`
 - `scikit-learn`, `pandas`, `nltk`, `re`
