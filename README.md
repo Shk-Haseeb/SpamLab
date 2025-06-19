@@ -7,7 +7,7 @@ This is a **spam detection app** I built from scratch using real-world email dat
 
 ---
 
-## What I Learned
+### What I Learned
 
 - Built multiple classifiers: `Naive Bayes`, `Logistic Regression`, and an `Ensemble Voting Classifier`
 - Used `TF-IDF Vectorization` to convert raw email text into numerical features
@@ -19,7 +19,7 @@ This is a **spam detection app** I built from scratch using real-world email dat
 
 ---
 
-## 🛠Tech Stack
+### Tech Stack
 
 - `Python 3.10`
 - `scikit-learn`, `pandas`, `nltk`, `re`
