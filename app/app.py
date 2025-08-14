@@ -14,7 +14,7 @@ st.set_page_config(page_title="Spam Detector", page_icon="📧")
 st.title("📧 Spam vs Ham Email Classifier")
 st.write("Enter or paste any email message below to see if it's classified as **spam** or **ham**.")
 
-with st.expander("📚 Try Sample Emails"):
+with st.expander("Try Sample Emails"):
     col1, col2 = st.columns(2)
     with col1:
         if st.button("Example Spam"):
